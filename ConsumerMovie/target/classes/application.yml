@@ -1,0 +1,11 @@
+server:
+  port: 8121
+eureka:
+  client:
+    service-url:
+      defaultZone: http://user:password123@localhost:8761/eureka
+  instance:
+    perfer-ip-address: true
+spring:
+  application:
+    name: consumermovie
